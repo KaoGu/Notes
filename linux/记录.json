@@ -22,3 +22,5 @@ nginx -c /path/to/nginx.conf
 
 平滑重启nginx：
 kill -HUP 主进程号
+
+test
