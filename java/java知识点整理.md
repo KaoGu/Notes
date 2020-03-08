@@ -56,11 +56,9 @@ URL与URI的区别和联系
 
 https://www.cnblogs.com/polary/p/11795013.html
 
-## 12 解决疑难问题（死锁、内存泄漏）
+## 12 JDK调试定位能力
 
-### 12.1 JDK工具
-
-#### JDK 命令行工具
+### 12.1 常用JDK命令行工具
 
 这些命令在 JDK 安装目录下的 bin 目录下：
 
@@ -79,3 +77,25 @@ https://www.cnblogs.com/polary/p/11795013.html
 【搞定Jvm面试】 JDK监控和故障处理工具揭秘
 
 https://blog.csdn.net/qq_34337272/article/details/103644552
+
+### 12.2 Jvisualvm
+Java VisualVM是一个工具，它提供有关在Java虚拟机上运行的代码的信息。该jvisualvm工具提供了JDK 6，JDK 7和JDK 8。
+Java VisualVM不再与JDK捆绑在一起，但您可以从[VisualVM开源项目站点](https://visualvm.github.io/)获取它。
+
+#### 12.2.1 下载安装
+
+从VisualVM开源项目站点(https://visualvm.github.io/)获取最新版本。
+
+手动执行visualvm.exe或者安装idea插件启动visualvm。默认可以查看当前机器的所有java程序运行情况。
+
+![](https://github.com/KaoGu/ResourceRepo/blob/master/java/jdk/visualvm/windows.png?raw=true)
+
+
+Jvisualvm功能介绍
+
+https://www.cnblogs.com/mzq123/p/11166640.html
+
+jdk自带监控程序jvisualvm的使用
+
+https://blog.csdn.net/u012550080/article/details/81605189
+
