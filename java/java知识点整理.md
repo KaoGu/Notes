@@ -88,7 +88,7 @@ Java VisualVM不再与JDK捆绑在一起，但您可以从[VisualVM开源项目�
 
 手动执行visualvm.exe或者安装idea插件启动visualvm。默认可以查看当前机器的所有java程序运行情况。
 
-![](https://github.com/KaoGu/ResourceRepo/blob/master/java/jdk/visualvm/windows.png?raw=true)
+![](../resource/java/jdk/visualvm/windows.png)
 
 
 Jvisualvm功能介绍
